@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <RootNamespace>Scada.Web.Plugins.PlgMimZComp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ScadaCommon">
+      <HintPath>C:\Program Files\SCADA\ScadaComm\ScadaCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="ScadaWebCommon">
+      <HintPath>C:\Program Files\SCADA\ScadaWeb\ScadaWebCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="PlgMimic.Common">
+      <HintPath>C:\Program Files\SCADA\ScadaWeb\PlgMimic.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Import Project="..\PlgMimZComp.Shared\PlgMimZComp.Shared.projitems" Label="Shared" />
+
+</Project>

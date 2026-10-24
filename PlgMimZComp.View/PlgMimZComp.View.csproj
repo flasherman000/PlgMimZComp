@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Scada.Web.Plugins.PlgMimZComp.View</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ScadaCommon">
+      <HintPath>C:\Program Files\SCADA\ScadaComm\ScadaCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="ScadaWebCommon.Subset">
+      <HintPath>C:\Program Files\SCADA\ScadaAdmin\ScadaWebCommon.Subset.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Import Project="..\PlgMimZComp.Shared\PlgMimZComp.Shared.projitems" Label="Shared" />
+
+</Project>
